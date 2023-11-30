@@ -2,6 +2,7 @@
 
 it('dropdown clicked', function(){
 
+  // COmment ini di tambahin sama noby
     cy.visit('https://trytestingthis.netlify.app/')
     cy.get('#option')
     .select('Option 1')
